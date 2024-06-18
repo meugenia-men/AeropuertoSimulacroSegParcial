@@ -48,7 +48,7 @@ public class Contenedora {
         return null;
     }
 
-    public void showList() {
+    public void showListAeropuertos() {
         for (Aeropuerto a : aeropuertos) {
             System.out.println(a);
         }
@@ -68,4 +68,12 @@ public class Contenedora {
             e.getStackTrace();
         }
     }
+
+
+
+
+
+
+
+
 }
